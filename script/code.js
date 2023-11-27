@@ -19,7 +19,6 @@ let arrDisplay = document.querySelector("[data-arr]");
 // adding numbers to your array
 btnAdd.addEventListener('click', function add() {
     arr.push(+input.value)
-    console.log(arr);
     arrDisplay.textContent = arr.join();
 })
 
