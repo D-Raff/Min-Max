@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
     <title>Document</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <div class="card">
+      <h1>Min &amp; Max Finder</h1>
+      <div class="row">
+        <input placeholder="enter a Number" data-num type="number" />
 
+        <button data-add type="button">Add Number</button>
 
+        <button data-clear type="button">clear numbers</button>
+      </div>
+
+      <span>your collection of numbers:</span><label data-arr></label>
+
+      <div class="row">
+        <button type="button" data-findMin>Display Min</button>
+
+      <button type="button" data-findMax>Display Max</button>
+      </div>
+
+      <label data-res></label>
+    </div>
 
     <script src="./script/code.js"></script>
-</body>
+  </body>
 </html>
